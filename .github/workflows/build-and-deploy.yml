@@ -40,7 +40,7 @@ jobs:
 
       - name: Print WORKLOAD_IDENTITY_PROVIDER
         run: echo ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
-      
+
       - name: Print SERVICE_ACCOUNT
         run: echo ${{ secrets.SERVICE_ACCOUNT }}
 
